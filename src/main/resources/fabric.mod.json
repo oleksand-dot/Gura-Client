@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "gura-client",
+  "version": "${version}",
+  "name": "Gura Client",
+  "description": "A lightweight cosmetic/QoL client for Minecraft 1.21.4 — custom GUI, HUD, crosshair, and modules.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": null,
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.guraclient.GuraClient"
+    ]
+  },
+  "mixins": [
+    "gura-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}

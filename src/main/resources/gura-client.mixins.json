@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.guraclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CrosshairMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
